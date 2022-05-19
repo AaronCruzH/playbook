@@ -1,4 +1,4 @@
-const UserView = require('./../../app/views/UserView')
+const UserView = require('./../../app/view/UserView')
 
 describe("Tests for UserView", () => {
 
@@ -9,3 +9,4 @@ describe("Tests for UserView", () => {
     expect(result.error).toMatch(/payload no existe/)
   })
 })
+
